@@ -1,0 +1,27 @@
+.Board {
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .Board td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .Cell {
+    background-color: #fff;
+  }
+  
+  .Cell-lit {
+    background-color: #00d0ff; /* Change this color to your desired lit cell color */
+  }
+  
+  .winner-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-top: 20px;
+  }
+  
